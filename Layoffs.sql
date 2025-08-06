@@ -17,6 +17,7 @@ CREATE TABLE layoffs_df LIKE layoffs;
 INSERT INTO layoffs_df
 SELECT * FROM layoffs;
 
+
 SELECT * FROM layoffs_df; -- Verify data import
 
 -- ======================================
